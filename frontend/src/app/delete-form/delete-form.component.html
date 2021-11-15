@@ -1,0 +1,19 @@
+<div class="container justify-content-center border border-danger m-auto my-4" >
+    <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
+    
+        <p class="text-center"> Delete Component</p>
+        <p>
+          <label for="firstname">First Name</label>
+          <input type="text" name="firstname" class="form-control" ngModel>
+        </p>  
+        <p>
+          <label for="pass">Password</label>
+          <input type="password" name="pass" class="form-control" ngModel>
+        </p>
+        <p>
+          <button class="btn btn-danger" type="submit">Delete</button>
+        </p>
+    
+        
+      </form>
+    </div>

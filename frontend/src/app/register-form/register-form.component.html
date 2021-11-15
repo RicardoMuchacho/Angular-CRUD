@@ -1,0 +1,29 @@
+<div class="container justify-content-center border border-primary m-auto m-4" >
+    <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
+    
+        <p class="text-center"> Register Component</p>
+        <p>
+          <label for="firstname">First Name</label>
+          <input type="text" name="firstname" class="form-control" ngModel>
+        </p>
+        <p>
+            <label for="secondname">Last Name</label>
+            <input type="text" name="secondname" class="form-control" ngModel>
+          </p>
+       
+        <p>
+          <label for="pass">Password</label>
+          <input type="password" name="pass" class="form-control" ngModel>
+        </p>
+        <p>
+            <label for="cpass">Confirm Password</label>
+            <input type="password" name="cpass" class="form-control" ngModel>
+          </p>
+       
+        <p>
+          <button class="btn btn-primary" type="submit">Register</button>
+        </p>
+    
+        
+      </form>
+    </div>
